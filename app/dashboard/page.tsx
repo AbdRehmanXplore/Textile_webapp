@@ -26,18 +26,12 @@ export default async function MacroDashboard() {
   return (
     <div className="p-4 sm:p-8 space-y-6 pb-24 md:pb-8">
       {/* Header Banner */}
-      <div className="flex justify-between items-center border-b border-slate-200 pb-4">
+      <div className="border-b border-slate-200 pb-4">
         <div>
           <h2 className="text-xl sm:text-2xl font-black text-slate-900">Home (Ghar)</h2>
           <p className="text-xs sm:text-sm text-slate-500">
             Karachi Textile Operations Dashboard
           </p>
-        </div>
-        <div className="flex items-center gap-2">
-          <span className="inline-flex items-center rounded-full bg-indigo-50 px-2 py-0.5 text-[10px] font-bold text-indigo-700 ring-1 ring-indigo-700/10">
-            <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 mr-1.5 animate-pulse"></span>
-            Real-time
-          </span>
         </div>
       </div>
 

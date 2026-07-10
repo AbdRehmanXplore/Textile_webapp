@@ -21,6 +21,14 @@ yarn-error.log*
 # local env files
 .env
 .env*.local
+.env.production.local
+
+# sensitive files - NEVER commit these
+cookies.txt
+.neon
+*.pem
+*.key
+.DS_Store
 
 # vercel
 .vercel
